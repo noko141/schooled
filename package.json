@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/noko141/schooled#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "@tailwindcss/cli": "^4.1.4",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "tailwindcss": "^4.1.4"
   }
 }

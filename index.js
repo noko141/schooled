@@ -1,9 +1,11 @@
 const express = require("express");
 const app = express();
+app.set("viewport", "ejs");
+app.use(express.static("public"));
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello, World!");
+    res.render("index.ejs");
 });
 
 app.listen(PORT, (error) => {
